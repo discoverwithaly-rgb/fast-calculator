@@ -27,10 +27,18 @@ const PageLoadingFallback = () => (
 );
 
 export default function App() {
-  // Initialize route from window.location.hash if present (e.g. #gst-calculator)
+  // Initialize route from window.location.hash or clean pathname
   const getInitialRoute = () => {
     const hash = window.location.hash.replace(/^#\/?/, '');
-    return hash || 'home';
+    if (hash) return hash;
+
+    const path = window.location.pathname;
+    const segments = path.split('/').filter(Boolean);
+    const last = segments[segments.length - 1];
+    if (last && last !== 'fast-culculator' && !last.endsWith('.html')) {
+      return last;
+    }
+    return 'home';
   };
 
   const [currentRoute, setCurrentRoute] = useState<string>(getInitialRoute);
@@ -44,13 +52,28 @@ export default function App() {
   };
 
   useEffect(() => {
-    const handleHashChange = () => {
+    const handleRouteSync = () => {
       const hash = window.location.hash.replace(/^#\/?/, '');
-      setCurrentRoute(hash || 'home');
+      if (hash) {
+        setCurrentRoute(hash);
+      } else {
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+        const last = segments[segments.length - 1];
+        if (last && last !== 'fast-culculator' && !last.endsWith('.html')) {
+          setCurrentRoute(last);
+        } else {
+          setCurrentRoute('home');
+        }
+      }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('hashchange', handleRouteSync);
+    window.addEventListener('popstate', handleRouteSync);
+    return () => {
+      window.removeEventListener('hashchange', handleRouteSync);
+      window.removeEventListener('popstate', handleRouteSync);
+    };
   }, []);
 
   // Dynamically update document title and meta description for SEO

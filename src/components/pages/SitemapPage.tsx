@@ -27,6 +27,22 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ onNavigate }) => {
           <p className="text-slate-600 mt-2 text-sm leading-relaxed">
             Complete index of all 15 calculators and informational resources hosted on Asan Calculator.
           </p>
+          
+          <div className="mt-4 p-3.5 bg-emerald-50/80 border border-emerald-200 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+            <div>
+              <span className="font-bold text-emerald-900">Google Search Console XML Sitemap: </span>
+              <span className="text-emerald-700 font-mono break-all">https://discoverwithaly-rgb.github.io/fast-culculator/sitemap.xml</span>
+            </div>
+            <a
+              href="./sitemap.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition-colors shrink-0"
+            >
+              <span>View XML Sitemap</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
         </div>
 
         {/* Categorized Calculators */}
