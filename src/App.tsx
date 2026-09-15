@@ -35,7 +35,7 @@ export default function App() {
     const path = window.location.pathname;
     const segments = path.split('/').filter(Boolean);
     const last = segments[segments.length - 1];
-    if (last && last !== 'fast-culculator' && !last.endsWith('.html')) {
+    if (last && last !== 'fast-calculator' && last !== 'fast-culculator' && !last.endsWith('.html')) {
       return last;
     }
     return 'home';
@@ -60,7 +60,7 @@ export default function App() {
         const path = window.location.pathname;
         const segments = path.split('/').filter(Boolean);
         const last = segments[segments.length - 1];
-        if (last && last !== 'fast-culculator' && !last.endsWith('.html')) {
+        if (last && last !== 'fast-calculator' && last !== 'fast-culculator' && !last.endsWith('.html')) {
           setCurrentRoute(last);
         } else {
           setCurrentRoute('home');

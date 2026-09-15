@@ -31,7 +31,7 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ onNavigate }) => {
           <div className="mt-4 p-3.5 bg-emerald-50/80 border border-emerald-200 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
             <div>
               <span className="font-bold text-emerald-900">Google Search Console XML Sitemap: </span>
-              <span className="text-emerald-700 font-mono break-all">https://discoverwithaly-rgb.github.io/fast-culculator/sitemap.xml</span>
+              <span className="text-emerald-700 font-mono break-all">https://discoverwithaly-rgb.github.io/fast-calculator/sitemap.xml</span>
             </div>
             <a
               href="./sitemap.xml"

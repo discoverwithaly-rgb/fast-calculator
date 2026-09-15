@@ -82,7 +82,7 @@ const getBase = (command: string) => {
     }
   }
   // Default for GitHub Pages deployment of this repository
-  return '/fast-culculator/';
+  return '/fast-calculator/';
 };
 
 export default defineConfig(({ command }) => {

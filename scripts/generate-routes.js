@@ -44,16 +44,16 @@ for (const route of routes) {
   }
 
   // Inject route-specific title and canonical tag for search engine crawlers
-  const routeCanonical = `https://discoverwithaly-rgb.github.io/fast-culculator/${route.slug}`;
+  const routeCanonical = `https://discoverwithaly-rgb.github.io/fast-calculator/${route.slug}`;
   let routeHtml = baseHtml
     .replace(/<title>.*?<\/title>/, `<title>${route.title} | Asan Calculator</title>`)
     .replace(/<link rel="canonical"[^>]*>/, '')
     .replace('</head>', `  <link rel="canonical" href="${routeCanonical}" />\n  </head>`);
 
-  // 1. Write route/index.html (handles /fast-culculator/<route>/)
+  // 1. Write route/index.html (handles /fast-calculator/<route>/)
   fs.writeFileSync(path.join(routeDir, 'index.html'), routeHtml, 'utf8');
 
-  // 2. Write route.html (handles /fast-culculator/<route> without trailing slash on GitHub Pages)
+  // 2. Write route.html (handles /fast-calculator/<route> without trailing slash on GitHub Pages)
   fs.writeFileSync(path.join(distDir, `${route.slug}.html`), routeHtml, 'utf8');
 }
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://discoverwithaly-rgb.github.io/fast-culculator/sitemap.xml
+Sitemap: https://discoverwithaly-rgb.github.io/fast-calculator/sitemap.xml
