@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="w-9 h-9 rounded-lg bg-emerald-500 flex items-center justify-center text-slate-950 font-bold">
                 <Calculator className="w-5 h-5" />
               </div>
-              <span className="text-xl font-bold text-white tracking-tight">Asan Calculator</span>
+              <span className="text-xl font-bold text-white tracking-tight">Fast Calculator</span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               Pakistan's trusted suite of fast, accurate, and free online calculators. Built with precision for students, freelancers, accountants, real estate professionals, and everyday Pakistani households.
@@ -131,7 +131,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {currentYear} Asan Calculator. All rights reserved.</p>
+          <p>© {currentYear} Fast Calculator. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Built with accuracy and care for Pakistan 🇵🇰
           </p>

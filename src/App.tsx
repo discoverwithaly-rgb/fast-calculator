@@ -79,24 +79,24 @@ export default function App() {
   // Dynamically update document title and meta description for SEO
   useEffect(() => {
     if (currentRoute === 'home') {
-      document.title = 'Asan Calculator - Free Online Calculators for Pakistan';
+      document.title = 'Fast Calculator - Free Online Calculators';
     } else if (currentRoute === 'about') {
-      document.title = 'About Us - Asan Calculator';
+      document.title = 'About Us - Fast Calculator';
     } else if (currentRoute === 'contact') {
-      document.title = 'Contact & Support - Asan Calculator';
+      document.title = 'Contact & Support - Fast Calculator';
     } else if (currentRoute === 'privacy-policy') {
-      document.title = 'Privacy Policy - Asan Calculator';
+      document.title = 'Privacy Policy - Fast Calculator';
     } else if (currentRoute === 'disclaimer') {
-      document.title = 'Disclaimer & Terms - Asan Calculator';
+      document.title = 'Disclaimer & Terms - Fast Calculator';
     } else if (currentRoute === 'sitemap') {
-      document.title = 'HTML Sitemap - Asan Calculator';
+      document.title = 'HTML Sitemap - Fast Calculator';
     } else if (currentRoute.startsWith('cat-')) {
       const catName = currentRoute.replace('cat-', '').replace(/-/g, ' ');
-      document.title = `${catName.toUpperCase()} Calculators - Asan Calculator`;
+      document.title = `${catName.toUpperCase()} Calculators - Fast Calculator`;
     } else {
       const calc = CALCULATORS_DATA.find(c => c.slug === currentRoute);
       if (calc) {
-        document.title = `${calc.name} - Free Online Tool | Asan Calculator`;
+        document.title = `${calc.name} - Free Online Tool | Fast Calculator`;
         const metaDesc = document.querySelector('meta[name="description"]');
         if (metaDesc) {
           metaDesc.setAttribute('content', calc.shortDescription);

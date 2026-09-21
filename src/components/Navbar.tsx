@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate, onSear
             type="button"
             onClick={() => handleNav('home')}
             className="flex items-center gap-2.5 text-left group cursor-pointer focus:outline-none"
-            aria-label="Asan Calculator Home"
+            aria-label="Fast Calculator Home"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-700 flex items-center justify-center text-white shadow-xs group-hover:scale-105 transition-transform">
               <Calculator className="w-5 h-5" />
@@ -37,7 +37,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentRoute, onNavigate, onSear
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-lg text-slate-900 tracking-tight group-hover:text-emerald-700 transition-colors">
-                  Asan Calculator
+                  Fast Calculator
                 </span>
                 <span className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider">
                   PK

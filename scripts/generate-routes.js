@@ -28,11 +28,11 @@ const routes = [
   { slug: 'bmi-calculator', title: 'BMI Calculator - Body Mass Index & Healthy Weight' },
   { slug: 'gpa-calculator', title: 'GPA & CGPA Calculator - University & College Grades' },
   { slug: 'percentage-to-marks-calculator', title: 'Percentage to Marks & Marks to Percentage Calculator' },
-  { slug: 'about', title: 'About Us - Asan Calculator' },
-  { slug: 'contact', title: 'Contact Us - Asan Calculator' },
-  { slug: 'privacy-policy', title: 'Privacy Policy - Asan Calculator' },
-  { slug: 'disclaimer', title: 'Disclaimer - Asan Calculator' },
-  { slug: 'sitemap', title: 'HTML Sitemap - Asan Calculator' },
+  { slug: 'about', title: 'About Us - Fast Calculator' },
+  { slug: 'contact', title: 'Contact Us - Fast Calculator' },
+  { slug: 'privacy-policy', title: 'Privacy Policy - Fast Calculator' },
+  { slug: 'disclaimer', title: 'Disclaimer - Fast Calculator' },
+  { slug: 'sitemap', title: 'HTML Sitemap - Fast Calculator' },
 ];
 
 console.log(`Generating static route files for ${routes.length} routes...`);
@@ -46,7 +46,7 @@ for (const route of routes) {
   // Inject route-specific title and canonical tag for search engine crawlers
   const routeCanonical = `https://discoverwithaly-rgb.github.io/fast-calculator/${route.slug}`;
   let routeHtml = baseHtml
-    .replace(/<title>.*?<\/title>/, `<title>${route.title} | Asan Calculator</title>`)
+    .replace(/<title>.*?<\/title>/, `<title>${route.title} | Fast Calculator</title>`)
     .replace(/<link rel="canonical"[^>]*>/, '')
     .replace('</head>', `  <link rel="canonical" href="${routeCanonical}" />\n  </head>`);
 

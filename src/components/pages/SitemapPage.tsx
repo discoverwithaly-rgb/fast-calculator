@@ -22,10 +22,10 @@ export const SitemapPage: React.FC<SitemapPageProps> = ({ onNavigate }) => {
             <span>Index Directory</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-            Asan Calculator HTML Sitemap
+            Fast Calculator HTML Sitemap
           </h1>
           <p className="text-slate-600 mt-2 text-sm leading-relaxed">
-            Complete index of all 15 calculators and informational resources hosted on Asan Calculator.
+            Complete index of all 15 calculators and informational resources hosted on Fast Calculator.
           </p>
           
           <div className="mt-4 p-3.5 bg-emerald-50/80 border border-emerald-200 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">

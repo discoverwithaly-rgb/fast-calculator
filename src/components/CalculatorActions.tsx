@@ -36,10 +36,10 @@ export const CalculatorActions: React.FC<CalculatorActionsProps> = ({
 
   const handleShare = async () => {
     const shareData = {
-      title: `${calculatorTitle} - Asan Calculator`,
+      title: `${calculatorTitle} - Fast Calculator`,
       text: resultText
         ? `Result from ${calculatorTitle}: ${resultText}`
-        : `Check out the free ${calculatorTitle} on Asan Calculator:`,
+        : `Check out the free ${calculatorTitle} on Fast Calculator:`,
       url: window.location.href
     };
 

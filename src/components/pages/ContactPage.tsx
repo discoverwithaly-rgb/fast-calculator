@@ -21,7 +21,7 @@ export const ContactPage: React.FC = () => {
         <div>
           <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">Support &amp; Feedback</span>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-            Contact Asan Calculator
+            Contact Fast Calculator
           </h1>
           <p className="text-slate-600 mt-2 text-base">
             Have a question, suggestion for a new calculator, or noticed a calculation discrepancy? We are eager to hear from you.
@@ -40,8 +40,8 @@ export const ContactPage: React.FC = () => {
                   <Mail className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold block text-slate-800">Email Us</span>
-                    <a href="mailto:support@asancalculator.pk" className="text-emerald-700 hover:underline">
-                      support@asancalculator.pk
+                    <a href="mailto:discoverwithaly@gmail.com" className="text-emerald-700 hover:underline">
+                      discoverwithaly@gmail.com
                     </a>
                   </div>
                 </div>

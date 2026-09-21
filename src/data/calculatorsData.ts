@@ -11,7 +11,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Free Percentage Calculator Online - Fast & Accurate Percent Tool',
     metaDescription: 'Use our free online Percentage Calculator to calculate percentage of a number, percentage increase or decrease, and what percentage A is of B.',
     h1: 'Online Percentage Calculator',
-    intro: 'The Percentage Calculator on Asan Calculator helps you quickly solve common percentage problems. Whether you need to figure out a retail sales tax, calculate a score percentage, or analyze month-over-month growth, this tool delivers instant, accurate calculations without manual math errors.',
+    intro: 'The Percentage Calculator on Fast Calculator helps you quickly solve common percentage problems. Whether you need to figure out a retail sales tax, calculate a score percentage, or analyze month-over-month growth, this tool delivers instant, accurate calculations without manual math errors.',
     howToUse: [
       'Select your calculation type (Value % of Number, % Increase/Decrease, or What % is A of B).',
       'Enter the respective numbers into the input boxes.',
@@ -70,7 +70,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Age Calculator Online - Exact Age in Years, Months & Days',
     metaDescription: 'Accurately find your exact age in years, months, and days from your date of birth. Discover your upcoming birthday countdown instantly.',
     h1: 'Online Age Calculator',
-    intro: 'Determine your chronological age with precision using the Asan Age Calculator. It calculates exact years, months, days, and shows the exact countdown to your next birthday. Ideal for passport applications, school admissions, job exams, and NADRA verification checks in Pakistan.',
+    intro: 'Determine your chronological age with precision using the Fast Age Calculator. It calculates exact years, months, days, and shows the exact countdown to your next birthday. Ideal for passport applications, school admissions, job exams, and verification checks.',
     howToUse: [
       'Select or type your Date of Birth in the date picker.',
       'Optionally adjust the "Calculate Age at Date" (defaults to today).',
@@ -174,7 +174,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Loan Calculator Online - Monthly Payments & Interest Breakdown',
     metaDescription: 'Calculate your monthly loan payments, total interest cost, and full repayment schedule. Suitable for personal, car, and home loans in Pakistan.',
     h1: 'Online Loan Calculator',
-    intro: 'Planning to borrow from commercial banks or microfinance institutions? The Asan Loan Calculator lets you calculate exact monthly repayments, cumulative interest fees, and total payoff costs with an interactive yearly/monthly amortization table.',
+    intro: 'Planning to borrow from commercial banks or lenders? The Fast Loan Calculator lets you calculate exact monthly repayments, cumulative interest fees, and total payoff costs with an interactive yearly/monthly amortization table.',
     howToUse: [
       'Enter the principal loan amount (PKR or your currency).',
       'Input the annual interest rate (%).',
@@ -423,7 +423,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Discount Calculator Online - Sale Price & Savings Tool',
     metaDescription: 'Find out exactly how much you save on shopping discounts. Calculates discounted final price and savings in rupees or percentage.',
     h1: 'Online Discount Calculator',
-    intro: 'Never wonder how much an item actually costs during a promotional sale. The Asan Discount Calculator lets you determine final price, total money saved, and optional double-discount calculations for clearance sales in shopping malls and online stores.',
+    intro: 'Never wonder how much an item actually costs during a promotional sale. The Fast Discount Calculator lets you determine final price, total money saved, and optional double-discount calculations for clearance sales in shopping malls and online stores.',
     howToUse: [
       'Enter the original retail price.',
       'Enter the discount percentage (e.g. 20%, 30%, 50%).',
@@ -469,7 +469,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Profit & Loss Calculator - Calculate Margin & Markup',
     metaDescription: 'Easily calculate profit or loss amount and percentage from cost price and selling price. Perfect for traders, e-commerce sellers, and shopkeepers.',
     h1: 'Profit & Loss Calculator',
-    intro: 'Accurately assess your business transactions, product margins, and trade profits with the Asan Profit & Loss Calculator. Essential for retail shop owners, Daraz e-commerce sellers, stock market traders, and small businesses across Pakistan.',
+    intro: 'Accurately assess your business transactions, product margins, and trade profits with the Fast Profit & Loss Calculator. Essential for retail shop owners, e-commerce sellers, traders, and small businesses.',
     howToUse: [
       'Enter the Cost Price (CP) - the amount you spent to acquire or produce the item.',
       'Enter the Selling Price (SP) - the price you sold or plan to sell it for.',
@@ -620,7 +620,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'Salary Calculator Pakistan - Monthly, Annual, Daily & Hourly Wages',
     metaDescription: 'Convert your monthly or annual salary into daily pay and hourly rate. Factor in working days per week and daily work hours.',
     h1: 'Salary & Wage Calculator',
-    intro: 'Understand your true hourly and daily earning rate with the Asan Salary Calculator. Whether you work on a monthly payroll, freelance on Upwork/Fiverr, or need to calculate overtime and per-day deductions for leave, this tool computes exact income figures.',
+    intro: 'Understand your true hourly and daily earning rate with the Fast Salary Calculator. Whether you work on a monthly payroll, freelance on Upwork/Fiverr, or need to calculate overtime and per-day deductions for leave, this tool computes exact income figures.',
     howToUse: [
       'Enter your Monthly or Annual base salary in PKR.',
       'Specify your standard working days per week (typically 5 or 6 days).',
@@ -666,7 +666,7 @@ export const CALCULATORS_DATA: CalculatorSEOData[] = [
     metaTitle: 'GPA & CGPA Calculator - Pakistan University 4.0 Scale Tool',
     metaDescription: 'Calculate your semester Grade Point Average (GPA) and Cumulative CGPA easily on the 4.0 scale for Pakistani universities (NUST, FAST, LUMS, COMSATS, UET, PU).',
     h1: 'University GPA & CGPA Calculator',
-    intro: 'Keep track of your academic standing with the Asan GPA & CGPA Calculator. Tailored for undergraduate and postgraduate students in Pakistan, supporting the standard 4.0 grading scale used by HEC-recognized institutions including NUST, FAST, LUMS, COMSATS, UET, GIKI, and Punjab University.',
+    intro: 'Keep track of your academic standing with the Fast GPA & CGPA Calculator. Tailored for undergraduate and postgraduate students, supporting the standard 4.0 grading scale used by major colleges and universities.',
     howToUse: [
       'Add your course subjects for the current semester.',
       'Select the credit hours (1, 2, 3, or 4) and achieved grade for each subject.',

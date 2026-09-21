@@ -18,22 +18,22 @@ export const PrivacyPolicyPage: React.FC = () => {
         <AdSensePlaceholder slotId="privacy-top" format="horizontal" />
 
         <p>
-          At <strong>Asan Calculator</strong> (accessible from our website), the privacy of our visitors is of paramount importance to us. This Privacy Policy document contains types of information that is collected and recorded by Asan Calculator and how we use it.
+          At <strong>Fast Calculator</strong> (accessible from our website), the privacy of our visitors is of paramount importance to us. This Privacy Policy document contains types of information that is collected and recorded by Fast Calculator and how we use it.
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">1. Client-Side Calculation Guarantee</h2>
         <p>
-          All calculations performed on Asan Calculator (including financial numbers, salary figures, age/dates, weight, and academic grades) are calculated locally in your web browser using client-side JavaScript. <strong>We do not transmit, record, or store your calculation entries on our servers.</strong>
+          All calculations performed on Fast Calculator (including financial numbers, salary figures, age/dates, weight, and academic grades) are calculated locally in your web browser using client-side JavaScript. <strong>We do not transmit, record, or store your calculation entries on our servers.</strong>
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">2. Log Files</h2>
         <p>
-          Asan Calculator follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this as a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+          Fast Calculator follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this as a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">3. Cookies and Web Beacons</h2>
         <p>
-          Like any other website, Asan Calculator uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+          Like any other website, Fast Calculator uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">4. Google DoubleClick DART Cookie &amp; AdSense</h2>
@@ -43,7 +43,7 @@ export const PrivacyPolicyPage: React.FC = () => {
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">5. Third-Party Privacy Policies</h2>
         <p>
-          Asan Calculator's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+          Fast Calculator's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
         </p>
         <p>
           You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
@@ -51,7 +51,7 @@ export const PrivacyPolicyPage: React.FC = () => {
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">6. Children's Information</h2>
         <p>
-          Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. Asan Calculator does not knowingly collect any Personal Identifiable Information from children under the age of 13.
+          Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. Fast Calculator does not knowingly collect any Personal Identifiable Information from children under the age of 13.
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 pt-2">7. Consent</h2>

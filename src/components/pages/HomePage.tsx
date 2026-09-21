@@ -218,7 +218,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, initialCategory 
         <AdSensePlaceholder slotId="home-mid-article" format="in-article" />
       </div>
 
-      {/* Why Choose Asan Calculator Section */}
+      {/* Why Choose Fast Calculator Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-slate-900 to-slate-950 text-white rounded-3xl p-8 sm:p-12 shadow-sm">
           <div className="max-w-2xl mb-8">
@@ -226,7 +226,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, initialCategory 
               Trusted by Thousands
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold mt-1 tracking-tight">
-              Why Pakistani Users Rely on Asan Calculator
+              Why Users Rely on Fast Calculator
             </h2>
             <p className="text-slate-400 text-sm mt-2 leading-relaxed">
               Designed specifically to resolve everyday mathematical and financial queries without slow page loads, subscription walls, or complex spreadsheets.

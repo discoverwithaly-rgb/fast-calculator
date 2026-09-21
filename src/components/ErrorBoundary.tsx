@@ -26,7 +26,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    console.error('Asan Calculator Uncaught Error:', error, errorInfo);
+    console.error('Fast Calculator Uncaught Error:', error, errorInfo);
     this.setState({ errorInfo });
   }
 
@@ -55,7 +55,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
                 Application Recovery
               </h1>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Asan Calculator encountered an unexpected issue while displaying this page. Your calculation inputs can be easily reset.
+                Fast Calculator encountered an unexpected issue while displaying this page. Your calculation inputs can be easily reset.
               </p>
             </div>
 
